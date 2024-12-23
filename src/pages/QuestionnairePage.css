@@ -1,0 +1,62 @@
+
+.questionnaire-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f0; 
+  }
+  
+  
+  .questionnaire-card {
+    background-color: #001d5b; 
+    color: #fff; 
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .questionnaire-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  
+  .questionnaire-description {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+  
+  
+  .questionnaire-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-yes {
+    background-color: #4a5568; 
+    color: #fff;
+  }
+  
+  .btn-no {
+    background-color: #576cd6; 
+    color: #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
